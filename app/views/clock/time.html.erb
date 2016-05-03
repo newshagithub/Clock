@@ -1,0 +1,15 @@
+<html>
+  <body>
+  <header>Ajax Lab</header>
+  <h1><font color="teal"> The current time is:<br></font></h1>
+    <h3><%= @time%> </h3>
+
+    <div id="button"><%= button_to "Update", action: "time", remote: true %></div>
+
+  <!--
+  <div><p><form action="time" class="button_to" data-remote="true" method="post">
+   <input type="submit" value="update">
+ </form></div></p>
+-->
+  </body>
+</html>

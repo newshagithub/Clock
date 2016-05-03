@@ -1,0 +1,6 @@
+//$('#button').html("<ol><%=j render "time"%> </ol>");
+
+
+$("<%= escape_javascript(render @time) %>").appendTo("#button");
+
+//$('#time').html<%=j(render @time) %>")
